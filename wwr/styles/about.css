@@ -1,0 +1,58 @@
+:root{
+    background-color: #4e5166; /*Primary Color*/
+    padding:5%;
+    color: #eaba6b; /*Secondary Color*/
+    color: #cc3f0c; /*Accent 1 Color*/
+    color: #92dce5; /*Accent 2 Color*/
+    /*https://coolors.co/eaba6b-cc3f0c-4e5166-92dce5*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #eaba6b;
+}
+a:link{
+    color: #cc3f0c;
+    padding: 5px;
+    border: solid 2px;
+}
+
+p {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #92dce5;
+}
+.hero{position:relative;}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1{
+    position:absolute;
+    background-color: rbga(204,63,12,.75);
+    color: #92dce5;
+    place-content: top;
+    place-content: center;
+}
+
+
+article img{
+    position: relative;
+    float: right;
+    max-width: 250px;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+.sociallinks img{
+    height: 25px;
+    width:  auto;
+}

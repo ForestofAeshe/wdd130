@@ -1,0 +1,21 @@
+*{
+    background-color: #4e5166; /*Primary Color*/
+    color: #eaba6b; /*Secondary Color*/
+    color: #cc3f0c; /*Accent 1 Color*/
+    color: #92dce5; /*Accent 2 Color*/
+    /*https://coolors.co/eaba6b-cc3f0c-4e5166-92dce5*/
+    
+
+}
+h1, h2, h3, h4, h5, h6 {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+}
+      
+p {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
