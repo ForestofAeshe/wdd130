@@ -1,10 +1,10 @@
 :root{
-    background-color: #4e5166; /*Primary Color*/
+    background-color: #07223b; /*Primary Color*/
     padding:5%;
     color: #eaba6b; /*Secondary Color*/
     color: #cc3f0c; /*Accent 1 Color*/
     color: #92dce5; /*Accent 2 Color*/
-    /*https://coolors.co/eaba6b-cc3f0c-4e5166-92dce5*/
+    /*https://coolors.co/eaba6b-cc3f0c-235789-92dce5*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,9 +14,11 @@ h1, h2, h3, h4, h5, h6 {
         color: #eaba6b;
 }
 a:link{
-    color: #cc3f0c;
+    color: #eaba6b;
     padding: 5px;
     border: solid 2px;
+    background-color: rgb(204,63,12,.75);
+    padding: 1px;
 }
 
 p {
@@ -35,24 +37,39 @@ p {
 }
 
 .hero h1{
-    position:absolute;
-    background-color: rbga(204,63,12,.75);
+    position: absolute;
+    background-color: rgb(204,63,12,.75);
     color: #92dce5;
-    place-content: top;
-    place-content: center;
+    top: 1em;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
 }
 
-
 article img{
-    position: relative;
+    position: absolute;
     float: right;
+    top: 10rem;
+    right: 3rem;
     max-width: 250px;
+    background-color: rgba(204,63,12,.75);
+    padding:25px;
+}
+
+article p{
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    right: 25rem;
+    background-color: rgb(204,63,12,.80);
+    padding: 1em;
 }
 
 .sociallinks a{
     text-decoration: none;
 }
 .sociallinks img{
-    height: 25px;
+    height: 3rem;
     width:  auto;
 }
