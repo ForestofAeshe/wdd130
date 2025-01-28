@@ -1,6 +1,6 @@
 :root{
     --default-background-color: #07223b; /*Primary Color*/
-    padding:.5em;
+    padding:.5rem;
 
     --default-color: #eaba6b; /*Secondary Color*/
     --secondary-color: #cc3f0c; /*Accent 1 Color*/
@@ -42,7 +42,7 @@ p {
     position: absolute;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    top: 1em;
+    top: 1rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -65,7 +65,7 @@ article p{
     left: 3rem;
     right: 25rem;
     background-color: var(--secondary-color);
-    padding: 1em;
+    padding: 1rem;
 }
 
 .sociallinks img{
