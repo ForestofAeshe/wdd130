@@ -8,6 +8,9 @@
     /*https://coolors.co/eaba6b-cc3f0c-235789-92dce5*/
 }
 *{background-color: var(--default-background-color);}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
 
 h1, h2, h3, h4, h5, h6 {
         font-family: "Merriweather", serif;
@@ -82,7 +85,26 @@ article p{
     left: 3rem;
     right: 25rem;
     background-color: var(--secondary-color);
-    padding: 1rem;
+    padding: 1rem; 
+}
+
+.history {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 1em 0;
+}
+
+.history h2{
+    width: 100%;
+    text-align: center;
+}
+
+.history p{
+    max-width: 42%;
+    padding: 1em;
+}
+.history img{
+    max-height: 30em;
 }
 
 .adventure{
@@ -93,27 +115,25 @@ article p{
 
 .adventure h2{
     grid-column: 1/6;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
-.adventure .horizontal{
-    width: 15rem;
-    height: auto;
+.adventure figure{
+    margin-top: 10rem;
     justify-self:center;
     align-self: center;
 }
-.adventure .portrait{
-    width: 10rem;
-    height: auto;
-    justify-self: center;
-    align-self: center
+
+.adventure figure img{
+    max-width: 20rem;
 }
+
 figcaption{
     color: var(--default-color);
-    justify-content: space-around;
-    align-self: self-end;
     font-size: larger;
+    grid-column:  1/6;
+    justify-self: center;
 }
 
 .sociallinks img{
