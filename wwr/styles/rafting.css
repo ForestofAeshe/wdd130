@@ -129,7 +129,7 @@ article p{
     max-width: 20rem;
 }
 
-figcaption{
+.adventure figcaption{
     color: var(--default-color);
     font-size: larger;
     grid-column:  1/6;
@@ -145,4 +145,113 @@ figcaption{
     height: 5rem;
     width:  auto;
     padding: 1rem;
+}
+
+
+.information{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1rem;
+    padding: 1em;
+    background-color: var(--secondary-color);
+}
+.information h2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--secondary-color);
+
+}
+.information p{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: var(--secondary-color);
+    color: var(--default-color);
+}
+
+.map{
+    position: relative;
+    display: flex;
+    justify-self: end;
+    padding: 1em;
+    margin-top: 2em;
+    width: 50%;
+}
+
+.employees{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:  33% 33% 33%;
+}
+
+.employees h2{
+    grid-column: 1/4;
+    display: grid;
+    justify-content: center;
+}
+
+.employees figure{
+    display: grid;
+    justify-content: center;
+}
+
+.employees figure img{
+    border: 1rem solid var(--accent1-color);
+    background-color: #92dce5;
+
+}
+
+.employees figcaption{
+    margin: .5rem;
+    padding: .5rem;
+    color: var(--default-color);
+    font-size: larger;
+    grid-column:  1/6;
+    justify-self: center;
+    border-top: solid var(--secondary-color);
+    border-left: dotted var(--secondary-color);
+    border-right: dotted var(--secondary-color);
+    border-bottom: dashed var(--secondary-color);
+}
+
+.contact_form{
+    position: relative;
+    padding: 3rem;
+    margin: 5rem;
+    
+}
+
+.contact_form h2{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_form form{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 10% 10%;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: var(--default-color);
+
+
+}
+.contact_form input{
+    background-color: rgb(222, 221, 221);
+    grid-column: 2/4;
+    height: fit-content;
+    padding: .5rem 0rem;
+    
+}
+.contact_form label{
+    padding-top: .5rem;
+    grid-column: 2/4;
+    justify-self: center;
+    background-color: var(--secondary-color);
+    font-weight: 700;
 }
