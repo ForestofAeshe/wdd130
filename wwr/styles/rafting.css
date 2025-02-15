@@ -255,3 +255,99 @@ article p{
     background-color: var(--secondary-color);
     font-weight: 700;
 }
+
+.hero-index{position:relative;}
+
+.hero-index img{
+    display: block;
+    width:90%;
+    height: auto;
+}
+
+.hero-index h1{
+    position: absolute;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    top: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+.trip-links section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.trip-links h1{
+    grid-column: 0/1;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.trip-links a{
+    color: var(--accent1-color);
+    background-color: var(--default-background-color);
+    font-size: x-large;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+.trip-links p{
+    grid-column: 0/2;
+    padding: 1em;
+    color: var(--default-color);
+    background-color: var(--default-background-color);    
+}
+
+.trip-links img{
+    grid-column: 0/1;
+    height: auto;
+    padding: 1rem;
+    margin-left: 10rem;
+}
+
+.trip-links figcaption{
+    margin-top: 3rem;
+    background-color: var(--default-background-color);
+}
+
+.newsletter{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter h2{
+    background-color: var(--secondary-color);
+    color: var(--);
+    padding: 1rem;
+    padding-bottom: 22rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin: 1rem;
+}
+
+.newsletter form{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    width: 40rem;
+    margin-top: 5rem;
+    background-color: var(--accent1-color);
+}
+
+.newsletter label{
+    color: var(--default-background-color);
+    background-color: var(--accent1-color);
+}
+
+.newsletter input{
+    background-color: white;
+    margin-bottom: 1%;
+    height: 2rem;
+}
