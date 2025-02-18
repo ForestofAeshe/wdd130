@@ -43,6 +43,10 @@ nav a {
     font-size: x-large;
 }
 
+a{
+    color: var(--accent1-color);
+}
+
 p {
     font-family: "Lexend Giga", serif;
     font-optical-sizing: auto;
@@ -146,6 +150,7 @@ article p{
     width:  auto;
     padding: 1rem;
 }
+
 
 
 .information{
@@ -351,3 +356,69 @@ article p{
     margin-bottom: 1%;
     height: 2rem;
 }
+
+.schedule-link{
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    text-align: center;
+}
+
+.trip-options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trip-options a{
+    color: var(--secondary-color);
+}
+
+.trip-options h3{
+    padding: 1rem;
+    justify-content: center;
+    width: 25rem;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.trip-options p{
+    border: solid var(--default-color);
+    padding: 1rem;
+    margin: 1rem;
+    width: 35rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.trip-options img{
+    padding: 1rem;
+    margin: 1rem;
+    width: 48rem;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.trip-options section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trip-two{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.trip-one h3{
+    display: flex;
+    justify-content: right;
+}
+
+.trip-two h3{
+    display: flex;
+    justify-content: left;
+}
+
